@@ -1,4 +1,5 @@
 #!/bin/bash
+adduser coredns --system --no-create-home
 cp coredns /usr/local/bin/
 mkdir -p /etc/coredns
 cp Corefile.example /etc/coredns/Corefile
